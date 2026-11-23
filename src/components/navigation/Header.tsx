@@ -105,29 +105,6 @@ export function Header({ brandName, items }: { brandName: string; items: NavItem
           </Link>
         </div>
       )}
-      {/* {open && (
-        <div
-          className="fixed inset-x-0 bottom-0 top-20 z-40 flex flex-col border-t border-white/80 bg-white/95 px-8 pb-12 pt-10 shadow-[0_20px_60px_rgba(34,34,34,0.16)] backdrop-blur-2xl lg:hidden"
-          role="dialog"
-          aria-label="Menu"
-        >
-          <nav className="flex flex-1 flex-col gap-6" aria-label="Mobile">
-            {items.map((i) => (
-              <Link
-                key={i.href}
-                href={i.href}
-                className="font-display text-4xl font-light text-charcoal"
-              >
-                {i.label}
-              </Link>
-            ))}
-          </nav>
-
-          <Link href="/contact" className="btn-solid w-full">
-            Get In Touch
-          </Link>
-        </div>
-      )} */}
     </header>
   );
 }
